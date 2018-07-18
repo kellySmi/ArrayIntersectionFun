@@ -1,2 +1,17 @@
 # ArrayIntersectionFun
-A project that gets JSON data and intersects the differnces between the datasets
+
+## Description
+This is a project that gets JSON data from two URL's, counts the unique objects in each, and counts the intersecting objects in both arrays.
+
+## Installation
+This assumes git, node, and npm are installed.
+
+```bash
+$ git clone https://github.com/kellySmi/ArrayIntersectionFun.git
+$ git cd ArrayIntersectionFun
+$ npm install
+```
+## Execution
+
+```bash
+$ node app.js favorites search-engines
