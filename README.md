@@ -15,3 +15,5 @@ $ npm install
 
 ```bash
 $ node app.js favorites search-engines
+
+A blog post on this article can be found (here)[https://codesmith.life/2018/07/18/intersection-challenge/]
