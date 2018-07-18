@@ -4,6 +4,7 @@
   "description": "Get Collections and find intersecting values",
   "main": "app.js",
   "dependencies": {
+    "https": "^1.0.0",
     "lodash": "^4.17.10"
   },
   "devDependencies": {},
