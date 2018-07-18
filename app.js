@@ -23,7 +23,8 @@ https.get(wsurl+ process.argv[2]+".json", (res) => {
            const res3 = JSON.parse(rawData);
             let names2 =  _.uniqBy(res3.companies,r3=>r3.domain);
             let n2Ar = names2.map(n=>n.domain);
-            
+            let names3 = _.intersection(n1Ar, n2Ar);
+            console.log (names1.length+" "+names2.length+ " "+names3.length)
          });
        }).on('error', (e) => {
           console.error(`Got error: ${e.message}`);
