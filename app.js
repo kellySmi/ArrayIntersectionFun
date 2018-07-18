@@ -1,4 +1,4 @@
-var http = require('http');
+var https = require('https');
 var _ = require('lodash');
 
 const wsurl ="https://s3.amazonaws.com/challenge.getcrossbeam.com/public/";
